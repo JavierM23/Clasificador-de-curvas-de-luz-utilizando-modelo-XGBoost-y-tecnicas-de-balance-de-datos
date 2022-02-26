@@ -1,6 +1,6 @@
 # Clasificador de curvas de luz utilizando modelo XGBoost y tecnicas de balance de datos
 
-Los telescopios recolectan todas las noches grandes cantidades de datos sobre las variaciones en el brillo de objetos estelares o bien, de su movimiento, denominadas alertas astronómicas. Dado el volumen de datos y la velocidad con la que se produce se requieren agentes intermediarios, denominados \textit{brokers}, que son quienes realizan la clasificación de alertas.\\
+Los telescopios recolectan todas las noches grandes cantidades de datos sobre las variaciones en el brillo de objetos estelares o bien, de su movimiento, denominadas alertas astronómicas. Dado el volumen de datos y la velocidad con la que se produce se requieren agentes intermediarios, denominados *brokers*, que son quienes realizan la clasificación de alertas.
     
 ALeRCE es un \textit{broker} que recibe las alertas provenientes del \textit{survey} astronómico ZTF (\textit{Zwicky Transient Facility}) y entre sus principales labores esta la rápida clasificación de las alertas, siendo capaz de separar las alertas falsas de las reales, y dentro de estas últimas, identificar hasta 15 clases distintas.\\
     
