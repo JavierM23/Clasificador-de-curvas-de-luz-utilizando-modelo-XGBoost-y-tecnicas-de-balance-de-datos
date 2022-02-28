@@ -11,3 +11,6 @@ Para el entrenamiento del modelo XGBoost usando distintas técnicas de balance, 
 Combinando varias técnicas de desbalance con XGBoost se obtuvieron muy buenos resultados en las métricas de evaluación y en sus predicciones. Al analizar las matrices de confusión resultantes se comprobó una disminución en el sesgo hacia las clases mayoritarias por parte del modelo predictivo. Se destaca la técnica a nivel de algoritmo *Cost Sensitive Learning*, con la cual XGBoost superó a BRF en todos clasificadores que componen el clasificador de curvas de luz, obteniendo en el nivel inferior del clasificador valores de 0.67, 0.79 y 0.70 para Precision, Recall y F1-score respectivamente, en contraste con BRF que obtuvo valores de 0.57, 0.76 y 0.60 para las mismas métricas respectivamente, demostrando además que las diferencias de desempeño obtenidas fueron estadísticamente significativas.
     
 Por último, se realizó un test final en los modelos entrenados con los que se obtuvo mejores resultados. Las curvas de luz de este test corresponden a aquellas que no fueron utilizadas ni durante la experimentación del presente trabajo ni por ALeRCE en el paper en el que presentaron su clasificador de luz.
+
+Javier Molina F.
+javier.molina.ferreiro@gmail.com
