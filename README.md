@@ -2,7 +2,7 @@
 
 Los telescopios recolectan todas las noches grandes cantidades de datos sobre las variaciones en el brillo de objetos estelares o bien, de su movimiento, denominadas alertas astronómicas. Dado el volumen de datos y la velocidad con la que se produce se requieren agentes intermediarios, denominados *brokers*, que son quienes realizan la clasificación de alertas.
     
-ALeRCE es un *broker* que recibe las alertas provenientes del \textit{survey} astronómico ZTF (*Zwicky Transient Facility*) y entre sus principales labores esta la rápida clasificación de las alertas, siendo capaz de separar las alertas falsas de las reales, y dentro de estas últimas, identificar hasta 15 clases distintas.
+ALeRCE es un *broker* que recibe las alertas provenientes del *survey* astronómico ZTF (*Zwicky Transient Facility*) y entre sus principales labores esta la rápida clasificación de las alertas, siendo capaz de separar las alertas falsas de las reales, y dentro de estas últimas, identificar hasta 15 clases distintas.
     
 En el presente trabajo se evaluó el potencial del algoritmo de aprendizaje XGBoost como modelo predictivo como clasificador de curvas de luz. Actualmente ALeRCE utiliza el modelo *Balanced Random Forrest* (BRF). La motivación detrás de este estudio es el gran desbalance de los datos, el cual es agravado debido a las múltiples clases existentes. Por este motivo se propone el estudio e implementación de técnicas para evitar el efecto de entrenar modelos con desbalance de datos
     
@@ -12,6 +12,6 @@ Combinando varias técnicas de desbalance con XGBoost se obtuvieron muy buenos r
     
 Por último, se realizó un test final en los modelos entrenados con los que se obtuvo mejores resultados. Las curvas de luz de este test corresponden a aquellas que no fueron utilizadas ni durante la experimentación del presente trabajo ni por ALeRCE en el paper en el que presentaron su clasificador de luz.
 
-Javier Molina F.
+> Javier Molina F.
 
-javier.molina.ferreiro@gmail.com
+> javier.molina.ferreiro@gmail.com
