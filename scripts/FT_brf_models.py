@@ -101,4 +101,4 @@ for subclass in ['Hierarchical','Periodic','Stochastic','Transient']:
     file_name = carpet + 'brf_FT_'+subclass.lower()+'_model_CV_dict.pkl'
     pickle_save(file_name, pickle_dict)
 
-print("_____All Good_____")
+print("_____All Good______")
