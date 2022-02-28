@@ -2,9 +2,9 @@
 
 Los telescopios recolectan todas las noches grandes cantidades de datos sobre las variaciones en el brillo de objetos estelares o bien, de su movimiento, denominadas alertas astronómicas. Dado el volumen de datos y la velocidad con la que se produce se requieren agentes intermediarios, denominados *brokers*, que son quienes realizan la clasificación de alertas.
     
-ALeRCE es un *broker* que recibe las alertas provenientes del *survey* astronómico ZTF (*Zwicky Transient Facility*) y entre sus principales labores esta la rápida clasificación de las alertas, siendo capaz de separar las alertas falsas de las reales, y dentro de estas últimas, identificar hasta 15 clases distintas.
+[ALeRCE](http://alerce.science/) es un *broker* que recibe las alertas provenientes del *survey* astronómico ZTF (*Zwicky Transient Facility*) y entre sus principales labores esta la rápida clasificación de las alertas, siendo capaz de separar las alertas falsas de las reales, y dentro de estas últimas, identificar hasta 15 clases distintas.
     
-En el presente trabajo se evaluó el potencial del algoritmo de aprendizaje XGBoost como modelo predictivo como clasificador de curvas de luz. Actualmente ALeRCE utiliza el modelo *Balanced Random Forrest* (BRF). La motivación detrás de este estudio es el gran desbalance de los datos, el cual es agravado debido a las múltiples clases existentes. Por este motivo se propone el estudio e implementación de técnicas para evitar el efecto de entrenar modelos con desbalance de datos
+En el presente trabajo se evaluó el potencial del algoritmo de aprendizaje XGBoost como modelo predictivo como el clasificador de curvas de luz. Actualmente ALeRCE utiliza el modelo *Balanced Random Forrest* (BRF). La motivación detrás de este estudio es el gran desbalance de los datos, el cual es agravado debido a las múltiples clases existentes. Por este motivo se propone el estudio e implementación de técnicas para evitar el efecto de entrenar modelos con desbalance de datos
     
 Para el entrenamiento del modelo XGBoost usando distintas técnicas de balance, se implementó el procedimiento *Nested Cross Validation* mediante el cual se entrena y evalúa cada modelo 10 veces con distintos grupos de entrenamiento y test, de forma de obtener valores promedio para el desempeño. Este mismo procedimiento fue realizado además para replicar el clasificador de ALeRCE con BRF, para así poder comparar el desempeño de ambos modelos.
     
@@ -12,6 +12,4 @@ Combinando varias técnicas de desbalance con XGBoost se obtuvieron muy buenos r
     
 Por último, se realizó un test final en los modelos entrenados con los que se obtuvo mejores resultados. Las curvas de luz de este test corresponden a aquellas que no fueron utilizadas ni durante la experimentación del presente trabajo ni por ALeRCE en el paper en el que presentaron su clasificador de luz.
 
-> Javier Molina F.
-
-> javier.molina.ferreiro@gmail.com
+> Javier Molina F: javier.molina.ferreiro@gmail.com
