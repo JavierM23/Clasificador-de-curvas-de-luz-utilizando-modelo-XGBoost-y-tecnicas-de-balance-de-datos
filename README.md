@@ -13,4 +13,5 @@ Combinando varias técnicas de desbalance con XGBoost se obtuvieron muy buenos r
 Por último, se realizó un test final en los modelos entrenados con los que se obtuvo mejores resultados. Las curvas de luz de este test corresponden a aquellas que no fueron utilizadas ni durante la experimentación del presente trabajo ni por ALeRCE en el paper en el que presentaron su clasificador de luz.
 
 Javier Molina F.
+
 javier.molina.ferreiro@gmail.com
